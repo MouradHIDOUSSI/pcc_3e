@@ -6,5 +6,8 @@ favorite_languages = {
     }
 
 print("The following languages have been mentioned:")
+
+# looping through unique values only
 for language in set(favorite_languages.values()):
     print(language.title())
+
