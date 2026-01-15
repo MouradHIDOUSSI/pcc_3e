@@ -5,6 +5,8 @@ favorite_languages = {
     'phil': 'python',
     }
 
+print(favorite_languages['jen'])
+
 friends = ['phil', 'sarah']
 for name in favorite_languages.keys():
     print(f"Hi {name.title()}.")
