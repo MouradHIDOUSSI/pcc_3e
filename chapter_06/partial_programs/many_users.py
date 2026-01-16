@@ -15,6 +15,7 @@ users = {
 
 for username, user_info in users.items():
     print(f"\nUsername: {username}")
+    # print(type(user_info))
     full_name = f"{user_info['first']} {user_info['last']}"
     location = user_info['location']
     
